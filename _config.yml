@@ -13,7 +13,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite-url       # Note: don't forget to modify the CNAME file to your url
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :month/:day/:year/:title/
 permalink_defaults:
 
 #Custom Setting Start
@@ -139,7 +139,7 @@ home_posts_tag: true # show posts tags
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: MM-DD-YYYY
 time_format: HH:mm:ss
 
 # Pagination
@@ -177,5 +177,5 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/YenYuHsuan/hexo-theme-beantech.git
-  branch: gh-page
+  repository: https://github.com/PaulMamps/MyNewWebsite
+  branch: MyOwn
